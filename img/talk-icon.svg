@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2 861 200 167">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-talk-icon);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-talk-icon">
+      <rect x="2" y="861" width="200" height="167"/>
+    </clipPath>
+  </defs>
+  <g id="talk-icon" class="cls-1">
+    <g id="group" transform="translate(77.717 843.565) rotate(21)">
+      <path id="path" class="cls-2" d="M125.2,77.308H0v-125.2H125.2Z" transform="translate(19.15 47.775)"/>
+      <path id="path-2" data-name="path" class="cls-3" d="M144.409-43.887H19.6A15.647,15.647,0,0,0,4-28.286V112.123l31.2-31.2H144.409a15.647,15.647,0,0,0,15.6-15.6V-28.286a15.647,15.647,0,0,0-15.6-15.6Z" transform="translate(-15.907 64.883)"/>
+    </g>
+  </g>
+</svg>

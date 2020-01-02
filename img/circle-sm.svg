@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-392 1871 700 700">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-circle-sm);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #eac574;
+      }
+    </style>
+    <clipPath id="clip-circle-sm">
+      <rect x="-392" y="1871" width="700" height="700"/>
+    </clipPath>
+  </defs>
+  <g id="circle-sm" class="cls-1">
+    <ellipse id="ellipse-3" class="cls-2" cx="128.25" cy="132.264" rx="128.25" ry="132.264" transform="translate(-170 2089)"/>
+    <ellipse id="ellipse-3-2" data-name="ellipse-3" class="cls-3" cx="71.59" cy="73.831" rx="71.59" ry="73.831" transform="translate(-113.341 2147.433)"/>
+  </g>
+</svg>

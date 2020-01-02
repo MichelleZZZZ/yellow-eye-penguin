@@ -1,0 +1,320 @@
+
+
+$blue-text: #054686;
+$test-color-orange: #FF8F3E;
+
+#support-body{
+	background: linear-gradient(to right, #CCC695, #A0B0E3);
+	position: relative;
+
+}
+.support{
+	position: relative;
+	opacity: 0;
+
+	.support-header{
+		background: url(../img/donate-header-small.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 350px;
+		position: relative;
+
+		@include breakpoint('medium'){
+				 
+			background: url(../img/donate-header-medium.jpg);
+			background-size: cover;
+		}
+
+		@include breakpoint('medium'){
+				 
+			background: url(../img/donate-header.jpg);
+			background-size: cover;
+		}
+
+		.texts{
+			left: 50%;
+			transform: translate(-50%);
+			bottom: 2rem;
+			position: absolute;
+			 
+			h1,h3{
+				color: #fff;
+				text-align: center;
+			}
+
+			h1{
+				font-size: 3rem;
+				margin-bottom: 0;
+			}
+
+		}
+		
+	}
+
+	.donate{
+		margin-bottom: 5rem;
+		padding: 20px;
+
+		.donate-form-container{	
+			margin: 0 auto ;
+			background-color: #fff;
+			max-width: 960px;
+			margin: 1rem auto calc( 5rem + 200px) auto;
+			padding: 20px;
+			text-align: center;
+
+			@include breakpoint('medium'){
+								 
+				margin: 3rem auto calc( 5rem + 200px) auto;
+ 			}
+
+			.form-container{
+				height: auto;
+				position: relative;
+				
+				.donate-form{
+
+					.button-container{
+
+						margin-bottom: 2rem;
+
+						.donate-button{
+							margin: 20px 5px;
+							display: inline-block;
+
+							@include breakpoint('medium'){
+									 
+								margin: 40px 20px 20px 20px;
+				 			}
+
+							&:hover{
+									
+								.penguin-up{
+									transform: translate(0, 0);
+								}
+							}
+							
+							.donate-button-container{
+								background-color: $test-color-orange;
+								color: #fff;
+								font-size: 2em;
+								line-height: 1.6em;
+								border-radius: 10px;
+								padding: 0;
+								cursor: pointer;
+								z-index: 100;
+								position: relative;
+
+								@include breakpoint('medium'){
+									 
+									padding: 3px 14px;
+					 			}
+								
+								#input-money{
+									color: $blue-text;
+								}
+
+								label{
+									width: 100px;
+									padding: 10px 20px;
+									cursor: pointer;
+									
+									input{
+										display: none;
+
+									}
+
+									sup{
+										font-size: 100%;
+										top: 0;
+									}
+								}		
+
+							}
+
+							.penguin-up{
+								width: 60px;
+								display: block;
+								z-index: 2;
+								margin: 0 auto;
+								transform: translate(0, 100%);
+								transition: all .3s ease;
+								
+							}
+
+							#button-input{
+								padding: 0;
+
+								@include breakpoint('medium'){
+									 
+									padding: 3px 14px;
+					 			}
+
+
+								input{
+									font-size: 25px;
+									margin: 0 5px;
+									
+								}
+
+								sup{
+									font-size: 100%;
+									top: 0;
+								}
+							}
+
+						}
+					}
+
+					
+
+					.donate-now-btn{
+						text-align: center;
+						margin-bottom: 5rem;
+						cursor: pointer;
+							
+						button{
+							color: $test-color-orange;
+							border: 1.5px solid $test-color-orange;
+							letter-spacing: 1px;
+							border-radius: 500px;
+							padding: 15px 45px;
+							text-decoration: none;
+							background-color: #fff;
+							transition: all .3s ease;
+							display: inline-block;
+							font-size: 1.2rem;
+
+							&:hover{
+								color: #fff;
+								background-color: $test-color-orange;
+
+							}
+						}
+					}
+
+				}
+			}
+
+		}
+	}
+
+	.donate-penguin{
+		position: absolute;
+		left: -70px;
+		top: 500px;
+		display: none;
+
+		@include breakpoint('wide'){
+				
+			display: block;
+		}
+
+		img{
+			width: 150px;
+		}
+
+	}
+
+}
+
+#support-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(#081D4B, .7);
+	display: none;
+	z-index: 1800;
+	transition: all .2s ease;
+
+}
+
+.confirmation{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	background-color: #fff;
+	z-index: 1900;
+	display: none;
+	transition: all .2s ease;
+
+	.close{
+		float: right;
+		margin-right: 20px;
+		margin-top: 20px;
+		width: 30px;
+		cursor: pointer;
+		
+	}
+
+
+	h1{
+		color: #FF8F3E;
+		text-align: center;
+		margin-top: 5rem;
+		margin-bottom: 3rem;
+	}
+
+	h4{
+		color: #95989A;
+		margin: 0 0 0 12px;
+
+	}
+
+	fieldset{
+		width: 100%;
+		text-align: center;
+		border: none;
+		margin: 0 0 5rem 0;
+
+		.form-row{
+			width: 100%;
+			margin: 0 auto 15px auto;
+
+
+			input{
+				width: 100%;
+				border: 0.5px solid #95989A;
+				padding: 15px 10px;
+			}
+
+			label{
+				width: 100%;
+				display: block;
+			}
+		}
+		
+	}
+
+	.donate-confirm{
+		text-align: center;
+		margin-bottom: 5rem;
+
+		a{
+			text-align: center;
+			color: #fff;
+			letter-spacing: 1px;
+			border-radius: 500px;
+			padding: 10px 40px;
+			text-decoration: none;
+			background-color: #FF8F3E;
+
+			&:hover{
+
+				background-color: #FCAF77;
+
+			}
+				
+		}
+	}
+
+}
+
+.sample-validation {
+	
+	
+}

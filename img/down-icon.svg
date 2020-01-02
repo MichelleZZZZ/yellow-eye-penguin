@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="15949 -95 99 54">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-down-icon);
+      }
+    </style>
+    <clipPath id="clip-down-icon">
+      <rect x="15949" y="-95" width="99" height="54"/>
+    </clipPath>
+  </defs>
+  <g id="down-icon" class="cls-1">
+    <image id="Expand_Arrow" data-name="Expand Arrow" width="108" height="108" transform="translate(15945 -122)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAACbklEQVR4nO3VQWrbQBhA4Sfbm5KcIZj2JDlKuihJoItcJCYYYrsJvUoOUeiyhN6iUMfd1OAWy5LskTS//d5GC4/Mjz7NCMzMzMzMzMzMzMzMzMzMzMzMzMxOvfv7+3d9zxC9us9wULVgsXi4OD8bffsyn14fPtZp9jSfXp2fjb5/fZy8r1q7E2SxeLiAwQvwgWL1KErznubTq1WxegbGv4fDlyqUouyHNUbBavMPVqyK20/Xn+epBj7mNjA2X/yfo+Xy8uPt3Y9t92wFKcFYJ0qNSjDWlaJUfkO2VHh87a4CY2dNj6zN3ClbqoHR/MhaJ0qzDsWAChAQpW4pMKAGCIhSVSoMqAkCopSVEgMagIAo/5caAxqCgCjr2sCAPUBAlLYwYE8QOF2UNjHgABA4PZS2MeBAEDgdlC4wIAEIHD9KVxiQCASOF6VLDEgIAseH0jUGJAaB40HpAwNaAIH4KH1hQEsgEBelTwxoEQTiofSNAS2DQByUHDCgAxDIHyUXDOgIBPJFyQkDOgSB/FByw4COQSAflBwxoAcQ6B8lVwzoCQT6Q8kZA3oEge5RcseAnkGgO5QIGJABCLSPEgUDMgGB9lAiYUBGIJAeJRoGZAYC6VAiYkCGIHA4SlQMyBQE9keJjAEZg0BzlOgYkDkI1Ecp4Fd0DAgAAjCbTcbDwfAFGJcseft7LcN4Xb4tL29u7l5Tz5a6ECBQa6eUFWJnrAsDAnuhhMKAYCDQCCUcBgQEgVooITEgKAjsRAmLAYFBYCtKaAwIDgL/oIyiYxxNs9lkPJtNxn3PYWZmZmZmZmZmZmZmZmZmZmZmZmYV/QFHLwgSvSIniQAAAABJRU5ErkJggg=="/>
+  </g>
+</svg>

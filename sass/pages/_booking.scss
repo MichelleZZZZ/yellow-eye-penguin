@@ -1,0 +1,374 @@
+$form-color-grey: #969696;
+$test-color-orange: #FF8F3E;
+$form-border-color: #ADD4FA;
+
+#booking-body{
+	background: linear-gradient(to right, #00B2DD, #19CB9B);
+
+}
+
+main{
+	position: relative;
+
+	#booking-overlay{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(#081D4B, .7);
+		display: none;
+		z-index: 1800;
+		transition: all .2s ease;
+	
+	}
+}
+.booking-a-view{
+	opacity: 0;
+	position: relative;
+
+	.form{
+		margin-top: 10rem;
+		margin-bottom: calc( 5rem + 200px);
+		padding: 20px;
+
+		@include breakpoint('wide'){
+			margin-top: 8rem;
+		}
+
+		.form-container{
+			background-color: #fff;
+			margin: 0 auto;
+			max-width: 800px;
+			position: relative;
+
+			.booking-header{
+
+				.texts{
+					text-align: center;
+					padding: 3rem 20px 0 10px;
+
+					@include breakpoint('wide'){
+						padding: 5rem 0 0 0 ;
+					}
+					
+					h1{
+						font-size: 1.6rem;
+						text-align: center;
+						color: $test-color-orange;
+
+						@include breakpoint('medium'){
+							font-size: 3rem;
+						}
+
+					}
+
+					p{
+						font-size: 1.2rem;
+						text-align: center;
+						color: $form-color-grey;
+						font-weight: lighter;
+
+						@include breakpoint('medium'){
+							font-size: 1.6rem;
+						}
+						
+					}
+
+				}
+				
+			}
+
+			.booking-fieldset{
+				margin: 10px;
+				text-align: center;
+				border: 0;
+
+				@include breakpoint('medium'){
+					margin: 0 auto;
+					max-width: 600px;
+				}
+
+				.form-row{
+					display: inline-block;
+					width: 100%;
+					margin: 15px auto;
+
+					li{
+						display: inline-block;
+						background-color: #fff;
+						border: 1px solid #95989A;
+						position: relative;	
+						padding-left: 0;
+						float: left;
+
+					}				
+
+					.place-list{
+						list-style: none;
+						width: 100%;
+						text-align: center;
+						padding: 0;
+						margin: 0;		
+
+						li{
+							width: calc( 50% - 6px);
+							margin: 3px;
+
+							@include breakpoint('medium'){
+								width: calc( 25% - 6px);
+								margin: 0 3px;
+							}
+
+							.places_inpute{
+								display: none;
+								width: 100%;
+								font-family: $font-family;
+
+
+								&:checked + .places_lable {
+									display: block;
+									color: #fff;
+									width: 100%;
+							 		border: 0px;
+							  		background-color: #64B0FC;		
+								  
+								}
+								
+							}
+
+							.places_lable{
+								cursor: pointer;
+								width: 100%;
+								display: block;
+								color: $form-color-grey;
+								transition: all .2s ease;
+								font-family: $font-family;
+								line-height: 2.2rem;
+
+								@include breakpoint('medium'){
+
+									line-height: 3rem;
+								}
+							}		
+							
+						}
+					}
+
+					.date-guest-list{
+						list-style: none;
+						padding: 0;
+						text-align: center;
+						margin: 0;
+
+						li{
+							width: calc(50% - 6px);
+							margin: 0 3px;
+							border: 1px solid #95989A;
+							position: relative;
+
+							input{
+								width: 100%;
+								border: 0;
+								padding-left: 10px;
+								font-family: $font-family;
+								height: 2.2rem;
+								color: $form-color-grey;
+								font-size: 0.7rem;
+
+								@include breakpoint('medium'){
+									height: 3rem;
+									font-size: 1rem;
+								}
+
+							}
+
+							#datepicker{
+								background-color: #fff;
+							}
+
+							.date-guest_label{
+								width: 100%;
+								display: block;
+
+							}
+
+							img{
+								position: absolute;
+								right: 10px;
+								top: 50%;
+								transform: translate(0, -50%);
+								width: 20px;
+								cursor: pointer;
+
+								@include breakpoint('medium'){
+									width: 30px;
+								}
+							}
+							
+						}
+
+						#guests{
+							width: 100%;
+							font-family: inherit;
+							font-family: $font-family;
+							border:none;
+							height: 2.2rem;
+							color: $form-color-grey;
+							padding-left: 10px;
+
+							@include breakpoint('medium'){
+								height: 3rem;
+							}
+							
+							option{
+								height: 2em;
+								outline: 0;
+								height: 100%;
+
+							}
+						}
+
+					}
+
+					.name-mail-input{
+						display: block;
+						width: calc(100% - 6px);
+						margin: 0 auto;
+						border: 1px solid #95989A;
+						height: 2.2rem;
+						font-family: $font-family;
+						color: $form-color-grey;
+						padding-left: 10px;
+
+						@include breakpoint('medium'){
+
+							height: 3rem;
+						}
+
+					}
+
+				}	
+				
+			}
+
+			.booking-btn{
+				text-align: center;
+				margin-bottom: 5rem;
+				padding-bottom: 8rem;
+				cursor: pointer;
+					
+				.btn-container{
+					color: $test-color-orange;
+					border: 1.5px solid $test-color-orange;
+					letter-spacing: 1px;
+					border-radius: 500px;
+					padding: 15px 40px;
+					text-decoration: none;
+					background-color: #fff;
+					transition: all .3s ease;
+					display: inline-block;
+					font-size: 1.2rem;
+
+					&:hover{
+						color: #fff;
+						background-color: $test-color-orange;
+
+					}
+				}
+			}
+
+		}	
+
+	}
+
+	.booking-penguin{
+		position: absolute;
+		width: 200px;
+		left: -70px;
+		top: 30%;
+		display: none;
+
+		@include breakpoint('wide'){
+			margin: 0 auto;
+			max-width: 600px;
+			display: block;
+		}
+	}
+
+	.booking-confirmation{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 700px;
+		background-color: #fff;
+		z-index: 1900;
+		display: none;
+		transition: all .2s ease;
+		z-index: 1900;
+
+		.close{
+			float: right;
+			margin-right: 20px;
+			margin-top: 20px;
+			width: 30px;
+			cursor: pointer;
+
+		}
+
+		.booking-info{
+			padding:  20px;
+			border: 2px solid #ADD4FA;
+			width: 70%;
+			margin: 5rem auto ;
+
+			h2,h4,p{
+				color: $test-color-grey;
+			}
+
+			.info-header{
+				margin-bottom: 5rem;
+				
+				h1{
+					color: $test-color-orange;
+					text-align: left;
+				}
+
+				p{
+					margin: 0 0 0 12px;
+
+				}
+
+			}			
+
+		}
+
+		.booking-confirm{
+			text-align: center;
+			margin-bottom: 5rem;
+			
+
+			&:hover{
+
+				a{
+					background-color: #FCAF77;
+				}
+
+			}
+
+			a{
+				text-align: center;
+				color: #fff;
+				letter-spacing: 1px;
+				border-radius: 500px;
+				padding: 10px 40px;
+				text-decoration: none;
+				background-color: $test-color-orange;
+				
+			}
+		}
+
+	}
+}
+

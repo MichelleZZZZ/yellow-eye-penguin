@@ -1,0 +1,811 @@
+$them-yellow-color: (#FDE000 );
+$them-blue-color: (#054686);
+$grey-font-color: (#EAEAEA);
+$dark-font-color: (#646464);
+
+
+.home-page{
+
+	background-color: #054686;
+}
+
+.scroll-down{
+
+	text-align: center;
+	position: relative;
+
+	.triangle{
+
+		top: 20%;
+		margin-left: 5px;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid $them-yellow-color;
+		display: inline-block;	
+
+	}
+}
+
+.home{
+
+	padding-top: 20vh;
+	height: 100vh;
+	z-index: 10;
+	background:url(../img/home-bg.svg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+	.home-container{
+
+		height: 80vh;
+		width: 100%;
+		padding: 20px;
+		position: relative;
+		overflow: hidden;
+
+		@include breakpoint('wide'){
+					
+			margin: 0 auto;
+		}
+
+		.home-text{
+
+			margin-top: 50px;
+			width: 100%;
+			position: absolute;
+
+			@include breakpoint('medium'){
+					
+				width: percentage(400/640);
+				left: 50%;
+				transform: translate(-50%, 0);
+ 			}
+
+ 			@include breakpoint('wide'){
+				
+				margin-top: 0;	
+				width: percentage(480/960);
+ 			}
+
+			.scroll-down{
+
+				margin-top: 20vh;
+
+				@include breakpoint('wide'){
+					 
+					margin-top: 10vh;
+	 			}
+
+			}
+			
+		}
+
+		// penguin swim
+
+		.penguin-home{
+
+			width: percentage(80/340);
+			height: 100%;
+			margin-top: 80px;
+			position: absolute;
+			right: 0;
+
+			@include breakpoint('wide'){
+				
+				margin-top: 0;
+				
+	 		}
+
+			.penguin-home-container{
+
+				position: relative;
+				height: 100%;
+				
+				img{
+
+					width: 60px;
+					position: absolute;
+
+
+					@include breakpoint('medium'){
+						
+						width: 90px;
+
+					}
+
+					@include breakpoint('wide'){
+						
+						width: 100px;
+
+					}
+
+				}
+
+				.penguin-1{
+
+					right: -100px;
+					
+				}
+				.penguin-3{
+
+					right: -150px;
+					top: 30%;
+
+					@include breakpoint('medium'){
+
+						top: 40%;
+					}
+
+				}
+
+			}
+	 				
+		}
+
+	}
+
+	.waves-small{
+		
+		position: absolute;
+		height: 120px;
+		width: 100%;
+		bottom: 0;
+
+		@include breakpoint('medium'){
+			
+			display: none;
+
+		}
+
+		img{
+			
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+
+		}
+
+		.wave-bg{
+
+			bottom: -30px;
+
+		}
+
+	}
+
+	.waves-lg{
+
+		display: none;
+
+		@include breakpoint('medium'){
+			
+			display: block;
+			position: absolute;
+			height: 120px;
+			width: 100%;
+			bottom: 0;
+
+		}
+
+		img{
+			
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+
+		}
+
+		.wave-bg{
+
+			bottom: -35px;
+
+		}
+
+	}
+
+}
+
+// home  section end
+
+.swim-penguin-1{
+			
+	position: absolute;
+	right: -100px;
+
+	img{
+		width: 50px;
+	}
+}
+
+
+.name{
+
+	padding: 0 20px;
+	margin-bottom: 8rem;
+	
+	.name-container{
+		
+		padding: 8rem 0 0 0;
+
+		.maori-name{
+				
+			margin: 0 auto;
+			text-align: center;
+			overflow: hidden;
+			
+			.talk-icon{
+
+				width: 5px;
+				opacity: 0;
+				display: inline-block;	
+				margin-right: 50px;			
+
+			}
+
+			.maori-name-container{
+
+				display: inline-block;
+				background: url(../img/name-bg.svg);
+				background-position: center;
+				background-repeat: no-repeat;
+				opacity: 0;
+
+			}
+
+		}
+
+	}
+	
+}
+
+//end name
+
+.adult-penguin{
+
+	background-color: #357DC7;
+	padding: 8rem 0;
+	
+
+	.adult-penguin-container{
+
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		
+		.penguin-bg{
+			
+			position: relative;
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background-color: #054686;
+			margin: 0 auto;
+			opacity: 0;
+
+			@include breakpoint('medium'){
+				
+				width: 500px;
+				height: 500px;
+
+			}
+
+			// arrows
+
+			img{
+
+				width: 33px;
+
+				@include breakpoint('medium'){
+				
+					width: 70px;
+
+				}
+			}
+
+			.centered-penguin{
+
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 70%;
+				height: 70%;
+				
+			}
+
+			.arrow-left-text{
+
+				.arrow-left{
+				
+					display: block;
+					float: left;
+					margin-left: 6px;
+
+					@include breakpoint('medium'){
+				
+						margin-left: 15px;
+
+					}
+
+				}
+				
+			}
+
+			.yellow-eye{
+
+				position: absolute;
+				left: -65px;
+				top: 30px;
+
+				@include breakpoint('medium'){
+				
+					left: -100px;
+					top: 60px;
+
+				}
+			}
+
+			.white-belly{
+
+				position: absolute;
+				left: -65px;
+				top: 90px;
+
+				@include breakpoint('medium'){
+				
+					left: -120px;
+					top: 300px;
+
+				}
+
+			}
+
+			.feet{
+
+				position: absolute;
+				right: -70px;
+				top: 130px;
+
+				@include breakpoint('medium'){
+				
+					right: -80px;
+					top: 400px;
+
+				}
+
+
+				.arrow-right{
+
+					position: absolute;
+					display: block;
+					left: -30%;
+					bottom: 0;
+
+					@include breakpoint('medium'){
+				
+						left: -80%;
+
+					}
+
+				}
+
+				.arrow-right-text{
+				
+					display: block;
+					float: right;
+					margin-left: 5px;
+					
+				}
+			}
+    	}
+	}
+}
+
+
+.map{
+
+	margin: 8rem 0;
+
+	.map-container{
+
+		max-width: 960px;
+		opacity: 0;
+
+		@include breakpoint('medium'){
+
+			margin: 0 auto;
+
+		}
+
+		.map-nz{
+
+			img{
+
+				width: 80%;
+				max-width: 400px;
+				min-width: 320px;
+				padding: 20px;
+				display: block;
+				margin: 0 auto;
+
+			}
+		}
+	
+	}
+}
+
+//end map section
+
+.visual-data{
+
+	margin-bottom: 10rem;
+	opacity: 0;
+
+	.data-container{
+
+		width: 90%;
+		margin: 0 auto;
+		
+		.data{
+			width: 100%;
+
+			#bars{
+
+				width: 300px;
+				padding: 0;
+				margin: 0 auto;
+
+				@include breakpoint('medium'){
+					
+					width: 600px;
+
+				}
+
+				li{
+
+					display: table-cell;
+					width: 100px;
+					height: 200px;
+					margin: 0;
+					position: relative;
+
+					@include breakpoint('medium'){
+					
+						height: 300px;
+
+					}		
+
+					.bar{
+
+						display: block;
+						width: 35px;
+						height: 0%;
+						margin-left: 15px;
+						background-color: #3B9FFF;
+						position: absolute;
+						bottom: 0;
+						transition: height .3s ease;
+
+						@include breakpoint('medium'){
+					
+							width: 70px;
+
+						}
+
+						&:hover{
+
+							background-color: #89C5FF;
+
+							&:before{
+								
+								color: #fff;
+								content: attr(data-number);
+								position: relative;
+								bottom: 40px;
+
+								@include breakpoint('medium'){
+					
+									bottom: 20px;
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+.real-penguin-bg{
+	display: none;
+
+	@include breakpoint('wide'){
+		display: block;
+		height:400px;
+		background-image: url(../img/real-p-1.jpg);
+		background-size:cover;
+		background-attachment: fixed;
+
+	}
+
+}
+
+.pedator{
+
+	margin: 8rem 0;
+	transition: all .3s ease;
+
+	.question{
+
+		opacity: 0;
+		margin-bottom: 8rem;
+
+		.question-image{
+
+			margin: 0 auto;
+			text-align: center;
+
+			@include breakpoint('medium'){
+
+				width: 420px;
+
+			}
+
+			.question-mark{
+
+				width: 120px;
+				display: inline-block;
+
+				@include breakpoint('medium'){
+
+					width: 200px;
+
+				}
+
+			}
+
+			.question-penguin{
+
+				width: 120px;
+				display: inline-block;
+
+				@include breakpoint('medium'){
+
+					width: 200px;
+
+				}
+			}
+		}
+
+	}
+
+	
+	.pedator-animals{		
+		
+		width: 80%;
+		max-width: 500px;
+		min-width: 320px;
+		margin: 0 auto;
+		transition: all .3s ease;
+		opacity: 0;
+
+		.pedators-container{
+			
+			position: relative;
+			margin-bottom: 3rem;
+
+			.circl-1{
+
+				width: 100%;
+			}
+
+			.animate-circle{
+
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+		}
+
+	}
+
+}
+
+.fishing-net{
+
+	margin-bottom: 10rem;
+	transition: all .3s ease;
+	opacity: 0;
+	
+	.plus{
+		
+		margin: 0 auto ;
+		
+		.plus-icon{
+		
+			display: block;
+			width: 70px;
+			margin: 0 auto 3rem auto;
+		}
+
+	}
+
+	.fishing{
+
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+
+		@include breakpoint('medium'){
+
+			width: 500px;
+			margin-bottom: 3rem;
+
+		}
+	}
+
+	.pedator-waves{
+
+		position: relative;
+
+		.waves-small{
+			
+			position: absolute;
+			height: 120px;
+			width: 100%;
+			bottom: 0;
+
+			@include breakpoint('medium'){
+				
+				display: none;
+
+			}
+
+			img{
+				
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+
+			}
+
+			.wave-bg{
+
+				bottom: -30px;
+
+			}
+
+		}
+
+		.waves-lg{
+
+			display: none;
+
+			@include breakpoint('medium'){
+				
+				display: block;
+				position: absolute;
+				height: 120px;
+				width: 100%;
+				bottom: 0;
+
+			}
+
+			img{
+				
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+
+			}
+
+			.wave-bg{
+
+				bottom: -35px;
+
+			}
+
+		}
+			
+	}
+
+}
+
+.decline{
+
+	margin-bottom: calc( 5rem + 200px);
+	transition: all .3s ease;
+
+	.decline-image{
+
+		opacity: 0;
+		transition: all .3s ease;
+		margin-bottom: 8rem;
+
+		.decline-image-container{
+
+			width: 90%;
+			position: relative;
+			margin: 0 auto 3rem auto;
+			padding: 0 20px;
+
+			@include breakpoint('medium'){
+
+				width: 500px;
+
+			}
+
+			.decline-1{
+
+				width: 100%;
+			}
+
+			.decline-animate{
+
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transition: all .3s ease;
+			}
+
+		}
+
+	}
+
+	.home-trust{
+
+		opacity: 0;
+		transition: all .3s ease;
+		margin-bottom: 8rem;
+
+		.home-trust-logo{
+			
+			width: 200px;
+			display: block;
+			margin: 0 auto 3rem auto;
+
+		}
+
+		a{
+			text-decoration: none;
+
+			.to-work-btn{
+
+				padding: 1px 45px;
+				background-color: transparent;
+				border: 2px solid #fff;
+				border-radius: 500px;
+				display: block;
+				margin: 0 auto;
+				transition: all .2s;
+				opacity: 0;
+
+				&:hover{
+
+					background-color: #fff;
+
+					p{
+						color: $them-blue-color;
+						transition: hover .2s;
+					}
+					
+				}
+
+			}
+		}
+		
+	}	
+}
+
+

@@ -1,0 +1,81 @@
+.surpport {
+  position: relative; }
+  .surpport .surpport-header {
+    background: url(../img/donate-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+    position: relative; }
+    .surpport .surpport-header .texts {
+      left: 50%;
+      transform: translate(-50%);
+      bottom: 5rem;
+      position: absolute; }
+      .surpport .surpport-header .texts h1, .surpport .surpport-header .texts h3 {
+        color: #fff;
+        text-align: center; }
+      .surpport .surpport-header .texts h1 {
+        font-size: 3rem; }
+    .surpport .surpport-header .triangle {
+      text-align: center;
+      bottom: -25px;
+      left: 50%;
+      transform: translate(-50%);
+      position: absolute; }
+      .surpport .surpport-header .triangle img {
+        height: 25px;
+        display: block; }
+  .surpport .donate {
+    padding: 0 20px;
+    margin-bottom: 5rem; }
+    .surpport .donate .donate-form {
+      margin: 0 auto;
+      background-color: #eee;
+      max-width: 960px;
+      margin: 5rem auto;
+      padding: 20px; }
+      .surpport .donate .donate-form .form-container {
+        height: auto; }
+        .surpport .donate .donate-form .form-container .donate-button {
+          background-color: #656565;
+          display: inline-block;
+          color: #fff;
+          font-size: 2em;
+          line-height: 2em;
+          border-radius: 2px;
+          padding: 5px 7px;
+          margin: 20px;
+          cursor: pointer; }
+          .surpport .donate .donate-form .form-container .donate-button label {
+            width: 100px;
+            padding: 10px 20px;
+            cursor: pointer; }
+            .surpport .donate .donate-form .form-container .donate-button label input {
+              display: none; }
+        .surpport .donate .donate-form .form-container #button-input {
+          padding: 5px 15px; }
+          .surpport .donate .donate-form .form-container #button-input input {
+            font-size: 30px;
+            padding: 0 5px; }
+        .surpport .donate .donate-form .form-container .donate-btn {
+          text-align: center;
+          display: inline-block;
+          margin-bottom: 5rem;
+          padding-bottom: 5rem; }
+          .surpport .donate .donate-form .form-container .donate-btn a {
+            text-align: center;
+            color: #fff;
+            letter-spacing: 1px;
+            border-radius: 500px;
+            padding: 10px 40px;
+            text-decoration: none;
+            background-color: #FF8F3E;
+            transition: all .3s; }
+            .surpport .donate .donate-form .form-container .donate-btn a:hover {
+              background-color: #FCAF77; }
+  .surpport .donate-penguin {
+    position: absolute;
+    left: -70px;
+    top: 600px; }
+    .surpport .donate-penguin img {
+      width: 150px; }

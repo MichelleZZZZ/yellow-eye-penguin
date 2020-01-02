@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="10287 3726 800 791">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-pedator-control-yellow);
+      }
+
+      .cls-2 {
+        fill: #ffd77c;
+      }
+    </style>
+    <clipPath id="clip-pedator-control-yellow">
+      <rect x="10287" y="3726" width="800" height="791"/>
+    </clipPath>
+  </defs>
+  <g id="pedator-control-yellow" class="cls-1">
+    <path id="path-40" class="cls-2" d="M3141.517-1788.032c-.312.022,65.1,30.565,65.1,30.565s4.413,8.194-6.079,7.16c.617,0-66.21-30.482-66.21-30.482S3129.046-1789.809,3141.517-1788.032Z" transform="translate(7385.689 5796.558)"/>
+    <path id="path-40-2" data-name="path-40" class="cls-2" d="M3141.517-1788.032c-.312.022,65.1,30.565,65.1,30.565s4.413,8.194-6.079,7.16c.617,0-66.21-30.482-66.21-30.482S3129.046-1789.809,3141.517-1788.032Z" transform="translate(7385.689 5983.558)"/>
+    <path id="path-40-3" data-name="path-40" class="cls-2" d="M3141.517-1788.032c-.312.022,65.1,30.565,65.1,30.565s4.413,8.194-6.079,7.16c.617,0-66.21-30.482-66.21-30.482S3129.046-1789.809,3141.517-1788.032Z" transform="translate(7627.689 6000.558)"/>
+    <path id="path-40-4" data-name="path-40" class="cls-2" d="M3141.517-1788.032c-.312.022,65.1,30.565,65.1,30.565s4.413,8.194-6.079,7.16c.617,0-66.21-30.482-66.21-30.482S3129.046-1789.809,3141.517-1788.032Z" transform="translate(7627.689 5805.558)"/>
+  </g>
+</svg>

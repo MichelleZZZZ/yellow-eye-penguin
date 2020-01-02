@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-342 880 50 46">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-plus);
+      }
+
+      .cls-2 {
+        fill: #e25f5f;
+      }
+    </style>
+    <clipPath id="clip-plus">
+      <rect x="-342" y="880" width="50" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="plus" class="cls-1">
+    <g id="group-31" transform="translate(-248 59)">
+      <rect id="rectangle-6" class="cls-2" width="49.476" height="6.186" transform="translate(-93 841)"/>
+      <rect id="rectangle-6-2" data-name="rectangle-6" class="cls-2" width="45.569" height="7.186" transform="translate(-64.814 821) rotate(90)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,298 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Yellow Eyed Penguin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" href="css/main.min.css">
+         <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <!-- datepicker -->
+        <link rel="stylesheet" href="css/pikaday.min.css">
+        
+    </head>
+    <body id="booking-body">
+        <header>
+            <div class="wrapper clearfix">
+
+                <a href="index.html">
+                    <img class="logo" src="img/logo.svg" alt="">
+                </a>
+                
+                <button class="menu hamburger">
+
+                    <span class="bar-1  bar"></span>
+                    <span class="bar-2  bar"></span>
+                    <span class="bar-3  bar"></span>
+
+                </button>
+
+            </div>
+
+            <nav>
+                <div class=" nav-container">
+                
+                    <ul>
+                        
+                        <li>
+                            <a href="index.html">The penguins</a>
+                        </li>
+
+                        <li>
+                            <a href="the-yeph.html">The YEPH</a>
+                        </li>
+
+                        <li>
+                            <a href="booking.html">Book A View</a>
+                            <div class="selected-line selected"></div>
+                        </li>
+
+                        <li>
+                            <a href="support.html">Support Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav-penguin">
+
+                        <img src="img/penguin-4.svg" alt="">
+                    </div>
+                </div>
+                
+            </nav>
+            <!-- end .wrapper -->
+        </header>
+
+        <main>
+
+            <div class="wrapper clearfix">
+
+                <section class="booking-a-view">
+
+                    <div class="form">
+
+                        <div class="form-container">
+
+                             <div class="booking-header">
+
+                                <div class="texts">
+                                    
+                                    <h1>Book a full day view</h1>
+
+                                    <p>Close View +On Shore + Feeding</p>
+                                </div> 
+                                
+                            </div>
+
+                            <form class="booking-form" action="#" method="post">
+
+                                <fieldset class="booking-fieldset">
+                                    
+                                   <div class="form-row">
+
+                                        <ul class="place-list">
+                                            
+                                            <li>
+                                                <input type="radio" name="places" id="Oamaru" class="places_inpute" value="Oamaru">
+
+                                                <label for="Oamaru" class="places_lable">Oamaru</label>
+                                            </li>
+
+                                             <li>
+                                                <input type="radio" name="places" id="Dunedin" class="places_inpute" value="Dunedin">
+
+                                                <label for="Dunedin" class="places_lable">Dunedin</label>
+                                            </li>
+
+                                             <li>
+                                                <input type="radio" name="places" id="Owaka" class="places_inpute" value="Owaka">
+
+                                                <label for="Owaka" class="places_lable">Owaka</label>
+                                            </li>
+
+                                             <li>
+                                                <input type="radio" name="places" id="Invercargill" class="places_inpute" value="Invercargill" >
+
+                                                <label for="Invercargill" class="places_lable">Invercargill</label>
+                                            </li>
+
+                                        </ul class="date-guest-list">
+
+                                    </div>
+
+                                    <div class="form-row">
+
+                                        <ul class="date-guest-list">
+
+                                            <li>
+
+                                                <input type="text" id="datepicker" name="date" placeholder="1/12/2016 ">
+
+                                                <label for="datepicker" class="date-guest_label" >
+                                                    
+                                                </label>
+
+                                                <img  src="img/date.svg" alt="">
+
+                                            </li>
+
+                                            <li>
+                                            
+                                                <select name="guests" id="guests">
+                                                    <option value="1">1 Guest</option>
+                                                    <option value="1">2 Guests</option>
+                                                    <option value="1">3 Guests</option>
+                                                    <option value="1">4 Guests</option>
+                                                    <option value="1">5 Guests</option>
+                                                    <option value="1">6 Guests</option>
+                                                </select>
+
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                    <div class="form-row">
+                                    
+
+                                        <input class="name-mail-input" type="text" id="name" name="name" placeholder="Your Name">
+
+                                        <label for="name" ></label>
+                                        
+                                    </div>
+
+                                    <div class="form-row">
+
+                                        <input class="name-mail-input" type="text" id="email" name="email" placeholder="Your Email">
+
+                                        <label for="name" ></label>
+                                        
+                                </fieldset>
+
+                                <div class="booking-btn">
+                                    <button class="btn-container" type="submit">
+                                       Book A View 
+                                    </button>
+                                   
+                                </div>
+
+                            </form>
+                                
+                        </div>
+                         
+                    </div>   
+
+                    <div class="booking-penguin">
+                        <img src="img/penguin-12.svg" alt="">
+                    </div>   
+
+                    <div class="booking-confirmation">
+
+                        <img class="close" src="img/close.svg" alt="">
+
+                        <div class="booking-info">
+
+                            <div class="info-header">
+                                <h1>Thanks, <span class="name"></span></h1>
+                                <p>Please check your confirmation email.</p>
+                                
+                            </div>
+
+                            <div class="booking-details">
+                                <h2>Booking Details</h2>
+                                <h4>Location: <span class="places"></span></h4>
+                                <h4>Date: <span class="date"></span></h4>
+                                <h4 class="guests"></h4>
+                                <h4>Email: <span class="email"></span></h4>
+
+                            </div>
+                        </div>
+
+                        <div class="booking-confirm">
+                            <a href="">
+                               Book Now
+                            </a>  
+                        </div>
+
+                    </div>
+
+                    <!-- end booking-confirmation -->             
+
+                </section>
+            </div>
+            <!-- end .wrapper -->
+
+             <div id="booking-overlay"></div>
+            
+        </main>
+
+       <footer class="clearfix">
+
+            <div class="wrapper">
+
+                <div class="footer-container">
+
+                    <img class="footer-penguin" src="img/penguin-footer.svg" alt="">
+                    
+                    <div class="contact-icons">
+
+                        <a href="https://twitter.com">
+                            <img src="img/twitter.svg" alt="" class="twitter">
+                        </a>
+                        
+                        <a href="https://www.facebook.com">
+                            <img src="img/facebook.svg" alt="" class="twitter">
+                        </a>
+                        
+                        <img src="img/mail.svg" alt="" class="twitter">
+                    </div>
+
+                    <div class="texts">
+                        
+                        <a href="the-trust.html">
+                            <h3>YEPH</h3>
+                        </a>
+                        <a href="booking.html">
+                            <h3>Book A View</h3>
+                        </a>
+                        <a href="support.html">
+                            <h3>Support</h3>
+                        </a>
+                        
+                        <p>This site is for educational purposes only &copy;MIYU ZHONG</h4>
+                    </div>
+
+                </div>
+                
+            </div>
+        </footer>
+
+        <!--<script src="js/vendor/jquery-3.1.1.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <!-- Gsap  -->
+        <!-- <script src="js/vendor/TweenMax.min.js"></script>-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script> 
+         <!--<script src="js/vendor/velocity.min.js"></script>-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.1/velocity.min.js"></script>
+
+        <!-- <script src="js/vendor/jquery.waypoints.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+        <!-- date picker -->
+        <script src="js/vendor/pikaday.js"></script>
+        
+        <script>
+            var picker = new Pikaday({ field: document.getElementById('datepicker') });
+        </script>
+
+        <!-- <script src="js/main.js"></script> -->
+        <script src="js/scripts.min.js"></script>
+        
+        
+    </body>
+</html>

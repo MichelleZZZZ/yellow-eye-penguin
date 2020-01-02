@@ -1,0 +1,75 @@
+body{
+
+  background-color: #054686;
+   min-width: 320px;
+  // overflow: hidden;
+}
+
+%wrapper{
+	// max-width: 1280px;
+	margin: 0 auto;
+}
+
+main{
+
+ 
+   overflow: hidden;
+	.wrapper{
+		@extend %wrapper;
+		min-height: calc(100vh - 100px);
+		color: #054686;
+
+	}	
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+*:focus{
+  
+  outline: none;
+};
+
+// loading page
+
+#loader{
+
+  position: fixed;
+  left: 0;
+  top: 0; 
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 3000;
+  transition: all .2s;
+
+  img{
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}

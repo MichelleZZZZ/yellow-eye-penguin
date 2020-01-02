@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="9768 4696 1500 1228">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-marine-fishes);
+      }
+
+      .cls-2 {
+        opacity: 0.432;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #95989a;
+        stroke-width: 1px;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        opacity: 0.917;
+      }
+
+      .cls-6 {
+        opacity: 0.771;
+      }
+
+      .cls-8 {
+        opacity: 0.857;
+      }
+
+      .cls-9 {
+        fill: #efefef;
+      }
+    </style>
+    <clipPath id="clip-marine-fishes">
+      <rect x="9768" y="4696" width="1500" height="1228"/>
+    </clipPath>
+  </defs>
+  <g id="marine-fishes" class="cls-1">
+    <g id="group-20" class="cls-2" transform="translate(10254.74 5151.792) rotate(9)">
+      <path id="path-34" class="cls-3" d="M.179,31.772S58.123-14.86,97.557,19.931C96.752,20.607,25.932,43.9.179,0-.224-.321.179,31.772.179,31.772Z" transform="translate(0 0)"/>
+      <path id="path-35" class="cls-4" d="M4.113,0s-9.255,7.769,0,13.173" transform="translate(76.963 10.492)"/>
+    </g>
+    <g id="group-20-2" data-name="group-20" class="cls-5" transform="translate(10012.23 5150.181) rotate(-34)">
+      <path id="path-34-2" data-name="path-34" class="cls-3" d="M.179,31.772S58.123-14.86,97.557,19.931C96.752,20.607,25.932,43.9.179,0-.224-.321.179,31.772.179,31.772Z" transform="translate(0 0)"/>
+      <path id="path-35-2" data-name="path-35" class="cls-4" d="M4.113,0s-9.255,7.769,0,13.173" transform="translate(76.963 10.492)"/>
+    </g>
+    <g id="group-20-3" data-name="group-20" class="cls-6" transform="translate(10719.227 5024.903) rotate(-29)">
+      <path id="path-34-3" data-name="path-34" class="cls-7" d="M.179,31.772S58.123-14.86,97.556,19.931C96.752,20.607,25.932,43.9.179,0-.224-.321.179,31.772.179,31.772Z" transform="translate(0 0)"/>
+      <path id="path-35-3" data-name="path-35" class="cls-4" d="M4.113,0s-9.255,7.769,0,13.173" transform="translate(76.963 10.492)"/>
+    </g>
+    <g id="group-20-4" data-name="group-20" class="cls-8" transform="translate(10968.996 5052.563) rotate(14)">
+      <path id="path-34-4" data-name="path-34" class="cls-9" d="M.179,31.772S58.123-14.86,97.556,19.931C96.752,20.607,25.932,43.9.179,0-.224-.321.179,31.772.179,31.772Z" transform="translate(0 0)"/>
+      <path id="path-35-4" data-name="path-35" class="cls-4" d="M4.113,0s-9.255,7.769,0,13.173" transform="translate(76.963 10.492)"/>
+    </g>
+  </g>
+</svg>

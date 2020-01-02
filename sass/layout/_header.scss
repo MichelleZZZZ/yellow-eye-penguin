@@ -1,0 +1,105 @@
+
+
+$them-yellow-color: (#FDE000 );
+
+header{
+	
+	position: fixed;
+	width: 100%;
+	z-index: 500;
+	margin-top: 30px;
+
+	.wrapper{
+
+		@extend %wrapper;
+		position: relative;
+		width: 100%;
+		height: 100%;
+
+		.logo{
+
+			position: absolute;
+			height: 40px;
+			float: left;
+			opacity: 1;
+			left: 20px;
+		}
+
+		.menu{
+
+			position: relative;
+			background: 0;
+			float: right;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			margin-top: 8px;
+			padding: 0;
+			border: 0;
+			z-index: 2000;
+			
+			.bar{
+
+				position: absolute;
+				left: 0;
+				width: 100%; 
+				height: 3px;
+				background-color: $them-yellow-color;
+				transform: rotate(0deg);
+				transition: opacity .3s ease, top .3s, transform .3s ease;
+
+			}
+
+			.bar-1{
+	
+				top: 0;
+				
+			}
+
+			.bar-2{
+				
+				top: 30%;
+
+			}
+
+			.bar-3{
+				
+				top: 60%;
+
+			}
+
+			&.open{
+				.bar-2{
+					opacity: 0;
+				}
+
+				.bar-1, .bar-3{
+					top: 12px;
+				}
+
+				.bar-1{
+					transform: rotate(-45deg);
+				}
+				.bar-3{
+					transform: rotate(45deg);
+				}
+			}
+
+			&:hover{
+
+				.bar{
+
+					background-color: #847BF0;
+				}
+
+				
+			}
+
+		}
+	
+		
+	}
+	//end .wrapper
+
+}
+// end header

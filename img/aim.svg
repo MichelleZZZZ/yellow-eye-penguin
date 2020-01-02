@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-392 3580 700 720">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-aim);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #6a6a6a;
+        stroke-width: 10px;
+      }
+    </style>
+    <clipPath id="clip-aim">
+      <rect x="-392" y="3580" width="700" height="720"/>
+    </clipPath>
+  </defs>
+  <g id="aim" class="cls-1">
+    <path id="path-86" class="cls-2" d="M-885.333,1924.991s55.444-60.446,131.481,0" transform="translate(781.142 1946.222)"/>
+    <path id="path-87" class="cls-2" d="M-762.367,1940.094s30.445,62.63-17.425,109.457" transform="translate(800.992 1955.675)"/>
+    <path id="path-88" class="cls-2" d="M-776.825,2037.375s-41.187,35.941-102.967,0" transform="translate(782.185 1977.589)"/>
+    <path id="path-89" class="cls-2" d="M-890.013,2042.1s-42.82-55.545,0-112.724" transform="translate(776.683 1953.261)"/>
+    <line id="line-21" class="cls-2" x2="256.714" transform="translate(-171.008 3939.109)"/>
+    <path id="line-22" class="cls-2" d="M0,20.039V286.1" transform="translate(-37.857 3786.092)"/>
+  </g>
+</svg>

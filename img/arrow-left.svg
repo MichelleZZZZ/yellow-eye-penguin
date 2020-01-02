@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-108 488 116 25">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-arrow-left);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #eac574;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #eac574;
+      }
+    </style>
+    <clipPath id="clip-arrow-left">
+      <rect x="-108" y="488" width="116" height="25"/>
+    </clipPath>
+  </defs>
+  <g id="arrow-left" class="cls-1">
+    <g id="group-111" transform="translate(-108.211 488.071)">
+      <line id="line-2" class="cls-2" x1="225.086" transform="translate(25.125 13.312)"/>
+      <path id="path-39" class="cls-3" d="M26.075,0,0,7.455,21.326,24.325Z" transform="translate(0 6.308) rotate(-14)"/>
+    </g>
+  </g>
+</svg>

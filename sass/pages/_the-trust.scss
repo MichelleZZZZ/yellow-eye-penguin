@@ -1,0 +1,489 @@
+.trust-home{
+
+	height:100vh;
+	width:100%;
+	background: linear-gradient(to right, #00B2DD, #24AF8A);
+	position: relative;
+	overflow: hidden;
+
+	.trust-info{
+
+		padding: 18vh 20px 0 20px;
+
+		@include breakpoint('medium'){
+					
+			padding: 25vh 20px 0 20px;
+
+		}
+		
+
+		.trust-logo{
+
+			width: 100%;
+			padding: 20px;
+			opacity: 0;
+
+			img{
+
+				width: 120px;
+				display: block;
+				margin: 0 auto;
+
+				@include breakpoint('medium'){
+					
+					width: 150px;
+
+				}
+			}
+
+			@include breakpoint('medium'){
+					
+				width: 50%;
+				float: left;
+			}
+		}
+
+		.trust-texts{
+
+			width: 100%;
+			max-width: 500px;
+			margin: 0 auto;
+			opacity: 0;
+
+			@include breakpoint('medium'){
+					
+				width: 50%;
+				float: left;
+			}
+		}
+
+		.scroll-down{
+
+			margin-top: 15vh;
+			opacity: 0;
+
+			@include breakpoint('medium'){
+					
+				margin-top: 60vh;
+			}
+		}
+		
+	}
+
+	.trust-home-penguins{
+			
+		display: none;
+
+		@include breakpoint('medium'){
+			
+			display: block;	
+			position: absolute;
+			width: 350px;
+			right: 0;
+			bottom: 0;
+		}
+
+		.small-penguin{
+			
+			position: absolute;
+			right: 25px;
+			bottom: 10px;
+			width: 50px;
+			opacity: 0;
+
+			@include breakpoint('medium'){
+				
+				right: 55px;
+				width: 90px;
+			}
+		}
+
+		.big-penguin{
+			
+			position: absolute;
+			right: -30px;
+			bottom: 0px;
+			width: 100px;
+			opacity: 0;
+
+			@include breakpoint('medium'){
+				
+				width: 150px;
+			}
+
+		}
+	}
+
+}
+
+.trust-work-info{
+
+	position: relative;
+	opacity: 0;
+
+	.work-info-bg{
+		
+		.penguin-bg{
+		
+			float:left;
+			background-position: center;
+			background-size: cover;
+		}
+
+		.penguin-trust-1{
+
+			
+			display: none;
+
+			@include breakpoint('medium'){
+				
+				display: block;
+				background: url(../img/trust-penguin-2.jpg);
+				background-position: center;
+				background-size: cover;
+				height: 50vh;
+				width: 50%;
+			}
+
+		}
+
+		.penguin-trust-2{
+
+			
+			display: none;
+
+			@include breakpoint('medium'){
+				
+				display: block;
+				background: url(../img/trust-penguin-3.jpg);
+				background-position: center;
+				background-size: cover;
+				height: 50vh;
+				width: 50%;
+
+			}
+			
+		}		
+
+		.penguin-trust-3{
+
+			background: url(../img/trust-penguin-4.jpg);
+			height: 50vh;
+			width: 100%;
+
+			@include breakpoint('medium'){
+				
+				width: 50%;
+			}
+
+		}
+
+		.penguin-trust-4{
+
+			background: url(../img/trust-penguin-1.jpg);
+			background-position: top;
+			height: 50vh;
+			width: 100%;
+
+			@include breakpoint('medium'){
+				
+				width: 50%;
+			}
+
+		}
+
+	}
+
+	.work-info-texts{
+
+		width: 300px;
+		padding: 20px;
+		background: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		@include breakpoint('medium'){
+				
+			width: 500px;
+			padding: 30px;
+		}
+	}	
+
+}
+
+.restoration{
+
+	background-color: #FAFAFA;
+
+	.restoration-container{
+
+		padding: 8rem 20px;
+		max-width: 1000px;
+		margin: 0 auto;
+		opacity: 0;
+		
+		@include breakpoint('wide'){
+					
+			padding: 8rem 0;
+		}
+
+		.work-map-nz{
+
+			position: relative;
+
+			.work-map-container{
+				
+				max-width: 500px;
+				margin: 3rem auto 0 auto;
+				position: relative;
+
+				@include breakpoint('wide'){
+					
+					width: 45%;
+					float: left;
+				}
+
+				.hids{
+
+					width: 9%;
+					position: absolute;
+					cursor: pointer;
+					
+				}
+
+				#hide-1{
+
+					top: 49%;
+					left: 47%;
+
+				}
+
+				#hide-2{
+
+					top: 62%;
+					left: 43%;
+				}
+
+				#hide-3{
+
+					top: 73%;
+					left: 31%;
+				}
+
+				#hide-4{
+
+					top: 81%;
+					left: 14%;
+				}
+
+				.hids-container{
+
+					#oamaru{
+
+						top: 15%;
+						left: 0;
+						transition: all .2s ease;
+
+					}
+
+					#dunedin{
+
+						top: 20%;
+						left: 0;
+						transition: all .2s ease;
+
+					}
+
+					#catlins{
+
+						top:30%;
+						left: 0;
+						transition: all .2s ease;
+					}
+
+					#invercargill{
+
+						top: 40%;
+						left: 0;
+						transition: all .2s ease;
+					}
+					
+					.hids-info{
+
+						position: absolute;
+						padding: 0 20px 0 20px;
+						width: 300px;
+						background-color: #fff;
+						border: 2px solid #B9DAFA;
+						display: none;
+
+					}	
+
+				}
+
+			}
+
+		}
+
+		.restoration-texts{
+
+			background-color: #F4F4F4;
+			padding: 40px;	
+			margin: 0 auto;;
+
+			@include breakpoint('wide'){
+				
+				padding: 50px;
+				margin-left: 30px;
+				width: 50%;
+				max-width: 550px;
+				float: left;
+			}
+			
+		}
+	}
+
+}
+
+.viewing{
+
+	background: url(../img/real-penguin-2-small.jpg);
+	background-size: cover;
+	background-position: center;
+	height:60vh;
+	position: relative;
+
+	@include breakpoint('medium'){
+		background: url(../img/real-penguin-2-medium.jpg);		
+		background-size: cover;
+		background-position: center;
+	}
+
+	@include breakpoint('wide'){
+		background: url(../img/real-penguin-2.jpg);		
+		background-size: cover;
+		background-position: center;
+	}
+
+	.view-texts{
+
+		position: absolute;
+		width: 80%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		
+
+		.view-text-container{
+
+			opacity: 0;
+
+			h1,p{
+
+			text-align: center;
+			color: #fff;
+			margin: 40px 0;
+			}
+
+			a{
+
+				text-align: center;
+				opacity: 0;
+				border-radius: 500px;
+				padding: 15px 40px;
+				text-decoration: none;
+				background-color: #FF8F3E;
+
+				&:hover{
+					
+					color: #fff;
+					background-color: #FCAF77;
+					transition: all .3s ease; 
+				}
+				
+			}
+		}
+		
+	}
+}
+
+
+.pedator-control{
+	
+	background-color: #FAFAFA;
+
+	.pedator-control-container{
+
+		padding: 8rem 20px;
+		max-width: 1000px;
+		margin: 0 auto;
+		opacity: 0;
+		
+		.pedator-control-image{
+
+			position: relative;
+			max-width: 500px;
+			margin: 0 auto;
+
+			@include breakpoint('wide'){
+
+				width: 45%;
+				float: left;
+				margin-top: 3rem;
+
+			}
+			
+			.circles{
+
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+		}
+
+		.pedator-control-texts{
+
+			background-color: #F4F4F4;
+			padding: 40px;	
+			margin:  0 auto;;
+
+			@include breakpoint('wide'){
+				
+				padding: 50px;
+				float: left;
+				width: 50%;
+				max-width: 550px;
+				margin-left: 30px;
+			
+			}
+
+		}
+
+	}
+	
+}
+
+.marine{
+
+	padding-top: 3rem;
+	margin-bottom: calc( 5rem + 200px);
+	background-color: #fff;
+
+	.marine-container{
+
+		img{
+
+			width:  100%;
+			display:block;
+			opacity: 0;
+
+		}
+
+	}
+
+}

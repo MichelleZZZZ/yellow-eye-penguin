@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="7489 2775 800 791">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-pedator-control-circle-1);
+      }
+
+      .cls-2 {
+        fill: #add4fa;
+      }
+    </style>
+    <clipPath id="clip-pedator-control-circle-1">
+      <rect x="7489" y="2775" width="800" height="791"/>
+    </clipPath>
+  </defs>
+  <g id="pedator-control-circle-1" class="cls-1">
+    <ellipse id="ellipse-13" class="cls-2" cx="400" cy="395.402" rx="400" ry="395.402" transform="translate(7489 2775)"/>
+  </g>
+</svg>

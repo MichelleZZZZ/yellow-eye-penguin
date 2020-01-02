@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="8139 6241 1500 1228">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-marine-wave-bg);
+      }
+
+      .cls-2 {
+        fill: #3b9fff;
+      }
+    </style>
+    <clipPath id="clip-marine-wave-bg">
+      <rect x="8139" y="6241" width="1500" height="1228"/>
+    </clipPath>
+  </defs>
+  <g id="marine-wave-bg" class="cls-1">
+    <path id="path-33" class="cls-2" d="M720.066,2058.488c76.638-31.093,114.685-41.931,129.383-46.268,51.312-15.144,183.927-44.9,320.113.588,174.374,58.246,285.918,98.569,451,0,73.247-39.331,285.029-129.114,499.193,12.019,0,.284,76.677,56,103.389,85.769v537.77s-1500.739-2.881-1503.08,0C719.16,2655.086,720.92,2058.433,720.066,2058.488Z" transform="translate(7415.733 4827.989)"/>
+  </g>
+</svg>
